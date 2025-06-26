@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+      <button id="toggle" onclick="toggleCart()"><i class="fa-solid fa-cart-shopping"></i></button>
+    <div class="left">
+        <span class="s1">Shopping Cart</span><br>
+        <input type="text" placeholder="search products....." oninput="searchProducts()" id="search">
+        <div class="products" id="products">
+           
+           </div>
+    </div>
+    <div class="cart">
+        <span class="s2">Your Cart</span>
+        <div class="cart-c" id="cart-c">
+            
+        </div>
+        <p class="Total" id="total">Total:$0</p>
+    </div>
+     <script src="script.js">
+       
+    </script>
+    
+   
+</body>
+</html>
